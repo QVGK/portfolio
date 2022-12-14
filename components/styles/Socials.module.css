@@ -1,0 +1,57 @@
+.Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Social {
+    background-color: #131313;
+    border: 3px solid black;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: clamp(50px, 10vw, 80px);
+    height: clamp(50px, 10vw, 80px);
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: .2s;
+}
+.Social:hover {
+    border: 3px solid #d3d3d3;
+}
+
+.SocialIcon {
+    height: clamp(30px, 7vw, 40px);
+    width: clamp(30px, 7vw, 40px);
+
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    pointer-events: none;
+}
+
+.GitHub {
+    background: rgb(27,27,27);
+    background: linear-gradient(160deg, rgba(27,27,27,1) 0%, rgba(35,35,35,1) 100%);
+}
+.Twitter {
+    background: #1DA1F2;
+    background: linear-gradient(160deg, #1DA1F2 0%, #598ec2 100%);
+}
+.Spotify {
+    background: #0F8C3D;
+    background: linear-gradient(160deg, #0F8C3D 0%, #14A145 100%);
+}
+.Roblox {
+    background: rgb(78,78,78);
+    background: linear-gradient(160deg, rgba(78,78,78,1) 0%, rgba(55,55,55,1) 100%);
+}

@@ -1,0 +1,47 @@
+.GradientContainer {
+    background: linear-gradient(332deg, #13e2ee, #a385ff, #7047f2, #0931d2); /* Dark Versions: #0d738a #6a51a0 #422a6a #041e61*/
+    background-size: 800% 800%;
+
+    -webkit-animation: GradientAnimation 19s ease infinite;
+    -moz-animation: GradientAnimation 19s ease infinite;
+    animation: GradientAnimation 19s ease infinite;
+
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@-webkit-keyframes GradientAnimation {
+    0%{background-position:19% 0%}
+    50%{background-position:82% 100%}
+    100%{background-position:19% 0%}
+}
+@-moz-keyframes GradientAnimation {
+    0%{background-position:19% 0%}
+    50%{background-position:82% 100%}
+    100%{background-position:19% 0%}
+}
+@keyframes GradientAnimation {
+    0%{background-position:19% 0%}
+    50%{background-position:82% 100%}
+    100%{background-position:19% 0%}
+}
+
+/* --------------------------------- */
+
+.Title {
+    color: white;
+    font-size: clamp(60px, 8vw, 100px);
+}
+
+.ContactTitle {
+    color: black;
+    text-align: center;
+
+    font-size: clamp(40px, 8vw, 60px);
+    font-weight: 700;
+
+    margin-top: 40px;
+}

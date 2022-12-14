@@ -1,0 +1,23 @@
+.Navbar {
+    background-color: #131313;
+    height: 60px;
+}
+
+.NavbarTitle {
+    color: white;
+    font-weight: 700;
+}
+.NavbarTitle:hover {
+    color: white;
+}
+
+.NavLink {
+    color: white;
+    font-weight: 500;
+}
+.NavLink:hover {
+    color: #435fff;
+}
+.NavLink:focus {
+    color: #435fff;
+}
