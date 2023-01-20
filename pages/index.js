@@ -12,7 +12,7 @@ import Header from '../components/Header'
 import Socials from '../components/Socials'
 import WaveDivider from '../components/WaveDivider'
 
-export default function index() {
+export default function Index() {
     const [mounted, setMounted] = useState(false)
 
     useEffect(() => {
@@ -48,9 +48,9 @@ export default function index() {
                 <h1 className={`${Styles.LowerTitle}`}>About Me</h1>
 
                 <p className={`${Styles.Paragraph}`}>
-                    G'day! I'm QVGK, a developer from Australia. I specialize in web development, but I also have experience in Roblox development.
+                    G&apos;day! I&apos;m QVGK, a developer from Australia. I specialize in web development, but I also have experience in Roblox development.
                     <br/><br/>
-                    I've been developing since 2016, and have been learning new things ever since. I'm currently actively working on a few project, yet I'm always 
+                    I&apos;ve been developing since 2016, and have been learning new things ever since. I&apos;m currently actively working on a few project, yet I&apos;m always 
                     available for contact or hire.
                 </p>
             </div>
@@ -59,7 +59,7 @@ export default function index() {
                 <h1 className={`${Styles.LowerTitle}`}>Projects</h1>
 
                 <p className={`${Styles.Paragraph}`}>
-                    I'm currently working on, and created a few projects. These range from Roblox development tools, to websites.
+                    I&apos;m currently working on, and created a few projects. These range from Roblox development tools, to websites.
                     You can view most of them by visiting my <Link className={`${Styles.Link}`} href='https://github.com/QVGK'>GitHub</Link>.
                 </p>
             </div>

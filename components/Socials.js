@@ -27,31 +27,31 @@ export default function Socials() {
         <div className={`${Styles.Container}`}>
             <Link href={Links.KoFi} target='_blank' rel='noreferrer'>
                 <button className={`${Styles.Social} ${Styles.KoFi}`}>
-                    <Image className={`${Styles.SocialIcon}`} src={KoFi}/>
+                    <Image className={`${Styles.SocialIcon}`} src={KoFi} alt='Ko-Fi'/>
                 </button>
             </Link>
 
             <Link href={Links.GitHub} target='_blank' rel='noreferrer'>
                 <button className={`${Styles.Social} ${Styles.GitHub}`}>
-                    <Image className={`${Styles.SocialIcon}`} src={GitHub}/>
+                    <Image className={`${Styles.SocialIcon}`} src={GitHub} alt='GitHub'/>
                 </button>
             </Link>
 
             <Link href={Links.Twitter} target='_blank' rel='noreferrer'>
                 <button className={`${Styles.Social} ${Styles.Twitter}`}>
-                    <Image className={`${Styles.SocialIcon}`} src={Twitter}/>
+                    <Image className={`${Styles.SocialIcon}`} src={Twitter} alt='Twitter'/>
                 </button>
             </Link>
 
             <Link href={Links.Spotify} target='_blank' rel='noreferrer'>
                 <button className={`${Styles.Social} ${Styles.Spotify}`}>
-                    <Image className={`${Styles.SocialIcon}`} src={Spotify}/>
+                    <Image className={`${Styles.SocialIcon}`} src={Spotify} alt='Spotify'/>
                 </button>
             </Link>
 
             <Link href={Links.Roblox} target='_blank' rel='noreferrer'>
                 <button className={`${Styles.Social} ${Styles.Roblox}`}>
-                    <Image className={`${Styles.SocialIcon}`} src={Roblox}/>
+                    <Image className={`${Styles.SocialIcon}`} src={Roblox} alt='Roblox'/>
                 </button>
             </Link>
         </div>
