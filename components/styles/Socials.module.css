@@ -24,6 +24,8 @@
 }
 .Social:hover {
     border: 3px solid #d3d3d3;
+
+    margin-top: -20px;
 }
 
 .SocialIcon {
@@ -54,4 +56,7 @@
 .Roblox {
     background: rgb(78,78,78);
     background: linear-gradient(160deg, rgba(78,78,78,1) 0%, rgba(55,55,55,1) 100%);
+}
+.KoFi {
+    background-color: #13C3FF;
 }

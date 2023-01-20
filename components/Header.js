@@ -21,17 +21,8 @@ const NavAnimate = {
 export default function Header() {
     return (
         <nav className={`navbar sticky-top ${Styles.Navbar}`}>
-            <motion.div initial={NavAnimate.Initial} animate={NavAnimate.Animate} transition={NavAnimate.Transition} className={`container-fluid`}>
-                <span className={`navbar-brand mb-0 h1 ${Styles.NavbarTitle}`}>QVGK</span>
-                {/*
-                <div className={`d-flex`}>
-                    //<ul className={`navbar-nav`}>
-                        //<li className={`nav-item`}>
-                            //<a className={`nav-link ${Styles.NavLink}`} aria-current="page" href="#">Home</a>
-                        //</li>
-                    //</ul>
-                </div>
-                */}
+            <motion.div initial={NavAnimate.Initial} animate={NavAnimate.Animate} transition={NavAnimate.Transition} className={`container`}>
+                <span className={`navbar-brand ${Styles.NavbarTitle} mx-auto`}>QVGK</span>         
             </motion.div>
         </nav>
     )

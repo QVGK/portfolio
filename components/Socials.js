@@ -11,18 +11,26 @@ import GitHub from '../img/GitHub.png'
 import Twitter from '../img/Twitter.png'
 import Spotify from '../img/Spotify.png'
 import Roblox from '../img/Roblox.png'
+import KoFi from '../img/Ko-Fi.png'
 
 // JSON
 const Links = {
     GitHub: 'https://github.com/QVGK',
     Twitter: 'https://twitter.com/QVGKA',
     Spotify: 'https://open.spotify.com/artist/6W9PtIJqYnyktRf6zJydGU',
-    Roblox: 'https://www.roblox.com/users/418033554/profile'
+    Roblox: 'https://www.roblox.com/users/418033554/profile',
+    KoFi: 'https://ko-fi.com/qvgka'
 }
 
 export default function Socials() {
     return (
         <div className={`${Styles.Container}`}>
+            <Link href={Links.KoFi} target='_blank' rel='noreferrer'>
+                <button className={`${Styles.Social} ${Styles.KoFi}`}>
+                    <Image className={`${Styles.SocialIcon}`} src={KoFi}/>
+                </button>
+            </Link>
+
             <Link href={Links.GitHub} target='_blank' rel='noreferrer'>
                 <button className={`${Styles.Social} ${Styles.GitHub}`}>
                     <Image className={`${Styles.SocialIcon}`} src={GitHub}/>

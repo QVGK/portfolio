@@ -5,3 +5,4 @@ pnpm-lock.yaml
 
 # NextJS
 .next
+.vercel

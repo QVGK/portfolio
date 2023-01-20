@@ -31,17 +31,61 @@
 
 /* --------------------------------- */
 
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .Title {
     color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+
     font-size: clamp(60px, 8vw, 100px);
 }
+.SubTitle {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
 
-.ContactTitle {
+    font-size: clamp(25px, 4vw, 40px);
+}
+
+
+.MT {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.LowerTitle {
     color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+
+    font-size: clamp(60px, 8vw, 80px);
+}
+.Paragraph {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+
     text-align: center;
 
-    font-size: clamp(40px, 8vw, 60px);
-    font-weight: 700;
+    font-size: clamp(15px, 8vw, 22px);
 
-    margin-top: 40px;
+    max-width: clamp(200px, 80vw, 800px);
+}
+.Link {
+    color: black;
+    font-weight: 500;
+
+    transition: 0.2s;
+    text-decoration: none;
+}
+.Link:hover {
+    color: #435fff;
+}
+.Link:focus {
+    color: #435fff;
 }
