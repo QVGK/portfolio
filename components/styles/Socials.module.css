@@ -29,8 +29,8 @@
 }
 
 .SocialIcon {
-    height: clamp(30px, 7vw, 40px);
-    width: clamp(30px, 7vw, 40px);
+    height: clamp(30px, 7vw, 45px);
+    width: clamp(30px, 7vw, 45px);
 
     -khtml-user-select: none;
     -o-user-select: none;
@@ -58,5 +58,5 @@
     background: linear-gradient(160deg, rgba(78,78,78,1) 0%, rgba(55,55,55,1) 100%);
 }
 .KoFi {
-    background-color: #13C3FF;
+    background: #13C3FF;
 }

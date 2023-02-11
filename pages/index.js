@@ -1,8 +1,7 @@
 // Dependencies
-import React, { use } from 'react'
+import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
-import { useState, useEffect } from 'react'
 
 // Styles
 import Styles from '../styles/Home.module.css'
@@ -22,7 +21,7 @@ export default function Index() {
     if (!mounted) return null
 
     return (
-        <>
+        <div>
             <Head>
                 <title>QVGK</title>
             </Head>
@@ -60,9 +59,9 @@ export default function Index() {
 
                 <p className={`${Styles.Paragraph}`}>
                     I&apos;m currently working on, and created a few projects. These range from Roblox development tools, to websites.
-                    You can view most of them by visiting my <Link className={`${Styles.Link}`} href='https://github.com/QVGK'>GitHub</Link>.
+                    You can view most of them by visiting my <Link className={`${Styles.Link}`} href='https://github.com/QVGK' target='_blank' rel='noreferrer'>GitHub</Link>.
                 </p>
             </div>
-        </>
+        </div>
     )
 }
