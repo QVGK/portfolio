@@ -4,10 +4,10 @@
 }
 
 .NavbarTitle {
-    color: white;
+    color: white !important;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 25px !important;
 }
 .NavbarTitle:hover {
     color: white;

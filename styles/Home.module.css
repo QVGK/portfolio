@@ -6,7 +6,7 @@
     -moz-animation: GradientAnimation 19s ease infinite;
     animation: GradientAnimation 19s ease infinite;
 
-    height: 60vh;
+    min-height: 93vh;
 
     display: flex;
     flex-direction: column;
@@ -88,4 +88,7 @@
 }
 .Link:focus {
     color: #435fff;
+}
+.AM {
+    min-height: 86vh;
 }
