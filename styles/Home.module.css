@@ -6,7 +6,7 @@
     -moz-animation: GradientAnimation 19s ease infinite;
     animation: GradientAnimation 19s ease infinite;
 
-    min-height: 93vh;
+    min-height: calc(100vh - 60px);
 
     display: flex;
     flex-direction: column;
@@ -44,51 +44,33 @@
 
     font-size: clamp(60px, 8vw, 100px);
 }
-.SubTitle {
-    color: white;
+
+.ButtonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+
+    margin-top: 140px;
+}
+.Button {
+    background-color: #ffffff;
+    border: 3px solid black;
+    border-radius: 10px;
+
     font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
 
-    font-size: clamp(25px, 4vw, 40px);
+    width: 150px;
+    height: 50px;
+    margin: 0 20px;
+
+    transition: .2s;
 }
+.Button:hover {
+    background-color: #cecece;
 
-
-.MT {
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-.LowerTitle {
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-
-    font-size: clamp(60px, 8vw, 80px);
-}
-.Paragraph {
-    color: black;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-
-    text-align: center;
-
-    font-size: clamp(15px, 8vw, 22px);
-
-    max-width: clamp(200px, 80vw, 800px);
-}
-.Link {
-    color: black;
-    font-weight: 500;
-
-    transition: 0.2s;
-    text-decoration: none;
-}
-.Link:hover {
-    color: #435fff;
-}
-.Link:focus {
-    color: #435fff;
-}
-.AM {
-    min-height: 86vh;
+    margin-top: -20px;
 }

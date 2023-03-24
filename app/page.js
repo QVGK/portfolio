@@ -1,52 +1,38 @@
 // Dependencies
-import Link from 'next/link'
+import Link from "next/link";
 
 // Styles
-import Styles from '../styles/Home.module.css'
+import Styles from "../styles/Home.module.css";
 
 // Components
-import Header from '../components/Header'
-import Socials from '../components/Socials'
+import Header from "../components/Header";
+import Socials from "../components/Socials";
 
 export default function Index() {
     return (
         <>
-            <Header/>
+            <Header />
 
             <div className={`${Styles.GradientContainer}`}>
-
                 <div className={`${Styles.Container}`}>
                     <h1 className={`${Styles.Title}`}>IMAGINE A</h1>
                     <h1 className={`${Styles.Title}`}>DEVELOPER</h1>
                 </div>
 
-                <br/>
+                <br />
 
-                <Socials/>
-                
-            </div>
+                <Socials />
 
-            <div className={`${Styles.AM}`}>
-                <div className={`${Styles.Container} ${Styles.MT}`}>
-                    <h1 className={`${Styles.LowerTitle}`}>About Me</h1>
+                <div className={`${Styles.ButtonsContainer} container`}>
+                    <Link href="/aboutme">
+                        <button className={`${Styles.Button}`}>About Me</button>
+                    </Link>
 
-                    <p className={`${Styles.Paragraph}`}>
-                        G&apos;day! I&apos;m QVGK, a developer from Australia. I specialize in web development, but I also have experience in Roblox development.
-                        <br/><br/>
-                        I&apos;ve been developing since 2016, and have been learning new things ever since. I&apos;m currently actively working on a few project, yet I&apos;m always 
-                        available for contact or hire.
-                    </p>
-                </div>
-
-                <div className={`${Styles.Container} ${Styles.MT}`}>
-                    <h1 className={`${Styles.LowerTitle}`}>Projects</h1>
-
-                    <p className={`${Styles.Paragraph}`}>
-                        I&apos;m currently working on, and created a few projects. These range from Roblox development tools, to websites.
-                        You can view most of them by visiting my <Link className={`${Styles.Link}`} href='https://github.com/QVGK' target='_blank' rel='noreferrer'>GitHub</Link>.
-                    </p>
+                    <Link href="/projects">
+                        <button className={`${Styles.Button}`}>Projects</button>
+                    </Link>
                 </div>
             </div>
         </>
-    )
+    );
 }
